@@ -22,8 +22,8 @@ By joining this community, you confirm that you have read and will follow the Gr
 * Be respectful
 * Be patient
 * Be clear in posting your questions or problems:
-  Summarize the issue you are facing
-  Help others help you by making it easy to re-produce your issue with clear steps and code snippets
+  1. Summarize the issue you are facing
+  2. Help others help you by making it easy to re-produce your issue with clear steps and code snippets
 
 * Do not post marketing material or spam
 
