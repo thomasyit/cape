@@ -1,9 +1,5 @@
 
-# CAPE
-
-<p align="center" style="background-color:#23327c"><img src="assets/logo.png" width="700px" /></p>
-
-
+<p align="center" style="background-color:#23327c"><img src="assets/logo.png"/></p>
 
 `CAPE` is a multi cluster application and data management tool.
 
@@ -62,10 +58,7 @@ open http://127.0.0.1.nip.io
 | v1.0.0        | -    | -    | +    | +    | +        | AWS, DigitalOcean, GCE,  |
 
 ## Getting Started
-
-We have a getting started tutorial in our docs
-[https://docs.cape.sh/docs/simple-install][10]
-
+We have a getting started tutorial in our  [docs](https://docs.cape.sh/docs/simple-install)
 
 ## Getting Involved
 
@@ -75,26 +68,20 @@ If you want to get in touch with us and discuss about improvements and new
 features, please create a new issue on GitHub or connect with us over the
 mailing list or Slack:
 
-* [CAPE mailing list][14] TBD
-* [`#general` channel][5] TBD
+* [CAPE mailing list](https://capesh.slack.com/)
+* [`#general` channel](https://capesh.slack.com)
 
 ## Reporting Bugs
 
-If you encounter issues, please [create a new issue on GitHub][1] or talk to us
-on the [`#general` Slack channel][5]. When reporting a bug please include the
+If you encounter issues, please [create a new issue on GitHub](https://github.com/cape-sh/cape/issues/new) or talk to us
+on the [`#general` Slack channel](https://capesh.slack.com). When reporting a bug please include the
 following information:
 
 
-If you're reporting a security vulnerability, please follow
-[the process for reporting security issues][16].
 
-## Changelog
-
-See [the list of releases][3] to find out about feature changes.
-
-[1]: https://github.com/biqmind/cape/issues/new
-[13]: https://github.com/biqmind/cape#features
-[14]: https://groups.google.com/forum/#!forum/biqmind-cape
-[15]: http://capesh.slack.io/
-[16]: https://github.com/biqmind/cape/blob/master/CONTRIBUTING.md#reporting-a-security-vulnerability
+[1]: https://github.com/cape-sh/cape/issues/new
+[2]: https://github.com/cape-sh/cape#features
+[3]: https://groups.google.com/forum/#!forum/cape-sh
+[4]: http://capesh.slack.io/
+[5]: https://docs.cape.sh/blog/2020/06/01/Introducing-CAPE-v0.1.1
 
