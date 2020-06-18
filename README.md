@@ -1,31 +1,35 @@
 
 <p align="center" style="background-color:#23327c"><img src="assets/logo.png"/></p>
 
-`CAPE` is a multi cluster application and data management tool.
+`CAPE` is a multi-cluster application and data management tool.
 
 ## Project Status
 
-As of v1.0.0, CAPE is in the beta phase. Check out the
-[Relase Notes][6] for more details 
+CAPE is currently in beta phase with v1.0.0. Check out the
+[Release Notes][6] for more details 
 
 
-## Documentation / User Guides
+## Documentation/User Guides
 
-All user documentation is available at the [CAPE docs website](https://docs.cape.sh/docs/).
+All you need to get started with CAPE is available [here](https://docs.cape.sh/docs/).
+
 
 ## CAPE in Action
+
 [![CAPE](assets/youtube-cape.png)](https://youtu.be/4KJt8NXTO8E "CAPE INTRO")
+
 
 ## Features
 
-* Multi-Cluster Data management including diaster recover and data mobility & migration
-* Multi-Cluster Application management
+* Multi-cluster Data Management
+* Multi-cluster Application Management
 
 <hr /> 
 
 ## Installing CAPE
 
-### Downloading a binary from GitHub Releases  
+### Downloading a binary from GitHub Releases 
+
 #### Start k3d local instance
 Prerequisites: [docker](https://docs.docker.com/get-docker/), [k3d](https://github.com/rancher/k3d)
 ```sh
@@ -49,25 +53,29 @@ open http://127.0.0.1.nip.io
 ```
 <hr />
 
-## Kubernetes Versions Compatibility
 
+## Kubernetes Versions Compatibility
 
 | CAPE Version | 1.18 | 1.17 | 1.16 | 1.15 | 1.14  | Supported providers|
 | --------------- | ---- | ---- | ---- | ---- | ----  | -----------------|
 | v1.0.0        | +    | +    | +    | +    | -        | AWS, DigitalOcean, GCE,  |
 | v1.0.0        | -    | -    | +    | +    | +        | AWS, DigitalOcean, GCE,  |
 
+
 ## Getting Started
-We have a getting started tutorial in our  [docs](https://docs.cape.sh/docs/simple-install)
+Get started quickly using this [tutorial](https://docs.cape.sh/docs/simple-install)[10]
+
 
 ## Getting Involved
 
-We very appreciate your feedback and participation.
+We appreciate your feedback and active participation.
 
-If you want to get in touch with us and discuss about improvements and new
-features, please create a new issue on GitHub or connect with us over Slack:
+If you want to get in touch with us to discuss improvements and new
+features, please [create a new issue on GitHub][1] or connect with us over on our
+mailing list or Slack:
 
-* [`#general` channel](https://capesh.slack.com)
+* [CAPE mailing list](https://capesh.slack.com/)
+* [`#general` Slack channel](https://capesh.slack.com)
 
 ## Reporting Bugs
 
