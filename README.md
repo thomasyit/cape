@@ -1,7 +1,7 @@
 
 <p align="center" style="background-color:#23327c"><img src="assets/logo.png"/></p>
 
-`CAPE` is a multi-cluster application and data management tool.
+# `CAPE` is a multi-cluster application and data management tool.
 
 ## Project Status
 
@@ -63,7 +63,7 @@ open http://127.0.0.1.nip.io
 
 
 ## Getting Started
-Get started quickly using this [tutorial](https://docs.cape.sh/docs/simple-install)[10]
+Get started quickly using this [tutorial](https://docs.cape.sh/docs/simple-install)
 
 
 ## Getting Involved
