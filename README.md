@@ -1,7 +1,7 @@
 
 <p align="center" style="background-color:#23327c"><img src="assets/logo.png"/></p>
 
-# `CAPE` is a multi-cluster application and data management tool.
+`CAPE` is a multi-cluster application and data management tool.
 
 ## Project Status
 
