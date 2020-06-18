@@ -3,7 +3,7 @@
 
 `CAPE` is a multi cluster application and data management tool.
 
-## Project Status 1
+## Project Status
 
 As of v1.0.0, CAPE is in the beta phase. Check out the
 [Relase Notes][6] for more details 
@@ -18,7 +18,7 @@ All user documentation is available at the [CAPE docs website](https://docs.cape
 
 ## Features
 
-* Multi-Cluster Data management
+* Multi-Cluster Data management including diaster recover and data mobility & migration
 * Multi-Cluster Application management
 
 <hr /> 
