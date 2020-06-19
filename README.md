@@ -1,5 +1,4 @@
-
-<p align="center" style="background-color:#23327c"><img src="assets/logo.png"/></p>
+<p align="center" style="background-color:#23327c" al><img src="assets/logo.png" height="50px" width="50px"/></p>
 
 `CAPE` is a multi-cluster application and data management tool.
 
@@ -80,7 +79,6 @@ mailing list or Slack:
 If you encounter a bug, please [create a new issue on GitHub](https://github.com/cape-sh/cape/issues/new) or talk to us
 on our [`#general` Slack channel](https://capesh.slack.com). When reporting a bug please include the
 following information:
-
 
 
 [1]: https://github.com/cape-sh/cape/issues/new
