@@ -4,6 +4,7 @@
 
 # `CAPE` is a multi-cluster application and data management tool.  
 <hr/>
+
 ## Project Status 
 
 CAPE is currently in beta phase with v1.0.0. Check out the
