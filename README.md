@@ -1,7 +1,10 @@
+<p align="center" style="background-color:#23327c">
+  <img src="assets/logo.png" height="250px" width="400px"/>
+</p>
 
-`CAPE` is a multi-cluster application and data management tool.
-
-## Project Status
+# `CAPE` is a multi-cluster application and data management tool.  
+<hr/>
+## Project Status 
 
 CAPE is currently in beta phase with v1.0.0. Check out the
 [Release Notes](https://docs.cape.sh/blog/2020/06/01/Introducing-CAPE-v1.0.0) for more details 
