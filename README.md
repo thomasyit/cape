@@ -1,4 +1,4 @@
-<p align="center" style="background-color:#23327c" al><img src="assets/logo.png" height="400px" width="400px"/></p>
+<p align="center" style="background-color:#23327c" al><img src="assets/logo.png" height="100px" width="400px"/></p>
 
 `CAPE` is a multi-cluster application and data management tool.
 
