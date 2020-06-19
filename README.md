@@ -77,11 +77,7 @@ mailing list or Slack:
 * [CAPE mailing list](https://capesh.slack.com/)
 * [`#general` Slack channel](https://capesh.slack.com)
 
-## Reporting Bugs
 
-If you encounter a bug, please [create a new issue on GitHub](https://github.com/cape-sh/cape/issues/new) or talk to us
-on our [`#general` Slack channel](https://capesh.slack.com). When reporting a bug please include the
-following information:
 
 
 [1]: https://github.com/cape-sh/cape/issues/new
