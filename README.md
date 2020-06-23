@@ -74,7 +74,6 @@ If you want to get in touch with us to discuss improvements and new
 features, please [create a new issue on GitHub](https://github.com/cape-sh/cape/issues/new) or connect with us over on our
 mailing list or Slack:
 
-* [CAPE mailing list](https://capesh.slack.com/)
 * [`#general` Slack channel](https://capesh.slack.com)
 
 
