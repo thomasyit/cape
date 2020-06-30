@@ -1,24 +1,31 @@
+# Welcome to CAPE
 <p align="center" style="background-color:#23327c">
-  <img src="assets/logo.png" height="250px" width="400px"/>
+  <img src="https://raw.githubusercontent.com/cape-sh/cape/master/assets/logo.png" height="125px" width="200px"/>
 </p>
 
-# `CAPE` is a multi-cluster application and data management tool.  
-<hr/>
+**About**
 
-## Project Status 
+Organizations struggle to manage their Kubernetes clusters at a level expected by various stakeholders; they are debilitated by a lack of resources, expertise and tools. Organizations need to overcome these obstacles and become Kubernetes-ready. CAPE will provide organizations with the tooling and ability to perform:
 
-CAPE is currently in beta phase with v1.0.0. Check out the
-[Release Notes](https://docs.cape.sh/blog/2020/06/01/Introducing-CAPE-v1.0.0) for more details 
+- Disaster Recovery
+  - Utilize Velero, an open source Kubernetes tool for backup & restore
+  - Perform single scheduled backup & restore
+  - Perform multi-cluster & multi-cloud backup & restore
+- Multi-cluster application deployment
+- Multi-cluster DNS and ingress
+
+CAPE enables you to manage Kubernetes clusters on day one without specialized knowledge or proprietary API/CLI experience.
+
+---
+
+**Find out more about CAPE:**
+
+[![](http://img.youtube.com/vi/4KJt8NXTO8E/0.jpg)](http://www.youtube.com/watch?v=4KJt8NXTO8E "Biqmind Cape")
 
 
-## Documentation/User Guides
+---
 
-All you need to get started with CAPE is available [here](https://docs.cape.sh/docs/).
-
-## Features
-
-* Multi-cluster Data Management
-* Multi-cluster Application Management
+## Try CAPE SAAS for FREE
 
 <hr /> 
 
