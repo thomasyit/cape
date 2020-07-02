@@ -2,7 +2,17 @@
   <img src="assets/logo.png" height="250px" width="400px"/>
 </p>
 
-# `CAPE` is an advanced Kubernetes multi-cluster application and data management tool that is designed with an elegant simplicity intuitive interface which simplifies your worklows.
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#download">Download</a> •
+  <a href="#platforms">Platforms</a> •
+  <a href="#license">License</a> •
+  <a href="#support">Support</a> 
+</p>
+
+# CAPE is an advanced Kubernetes multi-cluster application and data management tool
+
+CAPE is designed with an elegant simplicity intuitive interface which simplifies your kubernetes desires.
 <hr/>
 
 <p align="center" style="background-color:#23327c">
@@ -12,6 +22,7 @@
 <b>Isn't she gorgeous with those sexy rounded curves of statistics that warms the cockles of your heart? Why not catch her in action.</b>
 
 [![CAPE](assets/youtube-cape.png)](https://youtu.be/4KJt8NXTO8E "CAPE INTRO")
+
 
 ## Features
 ### Cluster
@@ -36,7 +47,9 @@
 
 <hr /> 
 
-## Let's walk the talk - Download from GitHub Releases
+## Download
+
+Let's walk the talk
 
 ### Start k3d local instance
 Prerequisites: [docker](https://docs.docker.com/get-docker/), [k3d](https://github.com/rancher/k3d)
@@ -59,9 +72,11 @@ kubectl -n cape wait --for=condition=available --timeout=600s deployment/web
 #wait for completion of CAPE deployment
 open http://127.0.0.1.nip.io
 ```
-CAPE is always FREE for you but only the first 10 nodes. If you need more than 10 nodes,contact connect@biqmind.com for a trial license key.
 
 <hr />
+
+## License
+CAPE will always be FREE for you but only for the first 10 nodes. If you need more than 10 nodes,contact connect@biqmind.com for a trial license key.
 
 ## Kubernetes Versions Compatibility
 
@@ -70,19 +85,18 @@ CAPE is always FREE for you but only the first 10 nodes. If you need more than 1
 | v1.0.0        | +    | +    | +    | +    | +        | AWS, DigitalOcean, GCE,  |
 
 
-## For other deployment platforms
+## Platforms
+CAPE is also avaliable for the following deployment platforms:
 - [Ansible](https://github.com/cape-sh/cape-ansible)
 - [HelmCharts](https://github.com/biqmind/cape-saas-operator/tree/master/helm/cape)
 - [DockerHub](https://hub.docker.com/u/biqmind)
 - [OperaterHub]-> Coming soon
 
-## Want to know more?
-Documentation is available [here](https://docs.cape.sh/docs/).
-
-
-## Getting Involved
+## Support
 We appreciate your feedback and active participation. If you like our project, share the love by following our tweet
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/CapeSuperhero) and vote for Github star.
+
+Documentation is available [here](https://docs.cape.sh/docs/).
 
 If you want to get in touch with us to discuss improvements and new
 features, please [create a new issue on GitHub](https://github.com/cape-sh/cape/issues/new) or connect with us over on our
