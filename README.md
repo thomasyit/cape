@@ -8,6 +8,7 @@
   <a href="#platforms">Platforms</a> •
   <a href="#license">License</a> •
   <a href="#support">Support</a> 
+
 </p>
 
 # CAPE is an advanced Kubernetes multi-cluster application and data management tool
@@ -93,21 +94,20 @@ CAPE is also avaliable for the following deployment platforms:
 - [OperaterHub]-> Coming soon
 
 ## Support
-We appreciate your feedback and active participation. If you like our project, share the love by following our tweet
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/CapeSuperhero) and vote for Github star.
+If you like our project, share the love by following our tweet:
+![Twitter Follow](https://img.shields.io/twitter/follow/CapeSuperhero?style=social)
+and add 
+![GitHub stars](https://img.shields.io/github/stars/cape-sh/cape?style=social)
 
 Documentation is available [here](https://docs.cape.sh/docs/).
 
-If you want to get in touch with us to discuss improvements and new
-features, please [create a new issue on GitHub](https://github.com/cape-sh/cape/issues/new) or connect with us over on our
-mailing list or Slack:
+We welcome contributions from the community:
 
-* [`#general` Slack channel](https://capesh.slack.com)
+- Documentation contributions via [pull requests] (https://github.com/biqmind/cape-docs) 
+- Bug reports and feature requests through [Github issues](https://github.com/cape-sh/cape/issues/new)
+
+Connect with us over on our mailing list or Slack:
+- [Slack](https://capesh.slack.com)
 
 
-[1]: https://github.com/cape-sh/cape/issues/new
-[2]: https://github.com/cape-sh/cape#features
-[3]: https://groups.google.com/forum/#!forum/cape-sh
-[4]: http://capesh.slack.io/
-[5]: https://docs.cape.sh/blog/2020/06/01/Introducing-CAPE-v1.0.0
 
