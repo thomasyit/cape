@@ -1,7 +1,6 @@
 <p align="center" style="background-color:#23327c">
-  <img src="https://github.com/biqmind/cape-docs/blob/master/docs/assets/CAPE-4CLogo-Hort.svg" />
+  <img src="https://github.com/biqmind/cape-docs/blob/master/docs/assets/CAPE-4CLogo-Hort.svg"/>
 </p>
-
 <p align="center">
   <a href="#features">Features</a> •
   <a href="#download">Download</a> •
