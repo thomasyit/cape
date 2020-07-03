@@ -59,11 +59,14 @@ k3d create -n dev -p 80:80 -p 443:443 --wait=0
 export KUBECONFIG="$(k3d get-kubeconfig --name='dev')"
 kubectl cluster-info
 ````
+Note: The Kubernetes cluster "dev" has been created locally
 
 ### Install CAPE
-> Enter the following command:
+> By running the following command, I have read and agree to CAPE [privacy policy](https://biqmind.com/privacy-policy/), [terms of service](https://biqmind.com/terms-of-service/) and [end user license agreement](https://biqmind.com/end-user-license-agreement/:
 ```
 kubectl apply -f https://cape.sh/install/simple.yaml
+
+kubectl set env deploy/web CAPE_ACCEPT_TOS=true -n cape
 ```
 
 ### Access CAPE UI
@@ -73,6 +76,7 @@ kubectl -n cape wait --for=condition=available --timeout=600s deployment/web
 #wait for completion of CAPE deployment
 open http://127.0.0.1.nip.io
 ```
+Please wait for CAPE deployment to complete and open a new tab with the following URL: http://127.0.0.1.nip.io
 
 <hr />
 
@@ -81,33 +85,36 @@ CAPE will always be FREE for you but only for the first 10 nodes. If you need mo
 
 ## Kubernetes Versions Compatibility
 
-| CAPE Version | 1.18 | 1.17 | 1.16 | 1.15 | 1.14  | Supported providers|
-| --------------- | ---- | ---- | ---- | ---- | ----  | -----------------|
-| v1.0.0        | +    | +    | +    | +    | +        | AWS, DigitalOcean, GCE,  |
-
+CAPE Version V1.0.0
+- AWS
+- DigitalOcean
+- GCE
+- Azure
+- Alibaba Cloud
+- Huawei Cloud
+- Tencent Cloud
 
 ## Platforms
 CAPE is also avaliable for the following deployment platforms:
 - [Ansible](https://github.com/cape-sh/cape-ansible)
-- [HelmCharts](https://github.com/biqmind/cape-saas-operator/tree/master/helm/cape)
-- [DockerHub](https://hub.docker.com/u/biqmind)
+- [Helm Charts](https://github.com/biqmind/cape-saas-operator/tree/master/helm/cape)
+- [Docker Hub](https://hub.docker.com/u/biqmind)
 - [OperaterHub]-> Coming soon
 
 ## Support
-If you like our project, share the love by following our tweet:
-![Twitter Follow](https://img.shields.io/twitter/follow/CapeSuperhero?style=social)
-and add 
+If you like our project,
+![Twitter Follow](https://img.shields.io/twitter/follow/CapeSuperhero?style=social) and 
 ![GitHub stars](https://img.shields.io/github/stars/cape-sh/cape?style=social)
 
 Documentation is available [here](https://docs.cape.sh/docs/).
 
 We welcome contributions from the community:
-
-- Documentation contributions via [pull requests] (https://github.com/biqmind/cape-docs) 
 - Bug reports and feature requests through [Github issues](https://github.com/cape-sh/cape/issues/new)
 
 Connect with us over on our mailing list or Slack:
-- [Slack](https://capesh.slack.com)
+- [<img src="https://img.shields.io/badge/Slack-CAPE-brightgreen">](https://capesh.slack.com)
 
+Our Youtube channel:
+- [<img src="https://img.shields.io/badge/Youtube-Biqmind-blue">](https://www.youtube.com/channel/UCSXtrXokSgbZuSz7qgu3VHw)
 
 
