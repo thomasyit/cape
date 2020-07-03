@@ -1,5 +1,5 @@
 <p align="center" style="background-color:#23327c">
-  <img src="assets/logo.png" height="250px" width="400px"/>
+  <img src="https://github.com/biqmind/cape-docs/blob/master/docs/assets/CAPE-4CLogo-Hort.svg" />
 </p>
 
 <p align="center">
@@ -106,7 +106,8 @@ If you like our project,
 ![Twitter Follow](https://img.shields.io/twitter/follow/CapeSuperhero?style=social) and 
 ![GitHub stars](https://img.shields.io/github/stars/cape-sh/cape?style=social)
 
-Documentation is available [here](https://docs.cape.sh/docs/).
+Documentation/User Guides:
+- Get started with CAPE [here](https://docs.cape.sh/docs/).
 
 We welcome contributions from the community:
 - Bug reports and feature requests through [Github issues](https://github.com/cape-sh/cape/issues/new)
