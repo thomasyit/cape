@@ -22,7 +22,6 @@ Deploy advanced K8s functionalities without the learning curve. This repo is for
   <img src="https://github.com/biqmind/cape-docs/blob/master/docs/assets/ReadmeDashboard.png" />
 </p>
 
-<b>Isn't she gorgeous with those sexy rounded curves of statistics that warms the cockles of your heart? Why not catch her in action.</b>
 
 [![CAPE](assets/youtube-cape.png)](https://youtu.be/4KJt8NXTO8E "CAPE INTRO")
 
@@ -80,7 +79,7 @@ Please wait for CAPE deployment to complete and open a new tab with the followin
 <hr />
 
 ## License
-CAPE will always be FREE for you but only for the first 10 nodes. If you need more than 10 nodes,contact connect@biqmind.com for a trial license key.
+CAPE will always be FREE for use up to 10 nodes. If you need more than 10 nodes, get in touch at connect@biqmind.com for pricing details. 
 
 ## Kubernetes Versions Compatibility
 
