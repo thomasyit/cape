@@ -11,9 +11,12 @@
 
 </p>
 
-# CAPE is an advanced Kubernetes multi-cluster application and data management tool
+# Advanced Kubernetes Multi-cluster Application & Data Management
 
-CAPE is designed with an elegant simplicity intuitive interface which simplifies your kubernetes desires.
+CAPE provides advanced Kubernetes features for Disaster Recovery, Data Migration & Mobility, Multi-cluster Application Deployment and CI/CD within a single, intuitive interface.
+
+Deploy advanced K8s functionalities without the learning curve. This repo is for tracking community issues and feedback. Try CAPE today and let us know what you think!
+
 <hr/>
 
 <p align="center" style="background-color:#23327c">
@@ -26,25 +29,22 @@ CAPE is designed with an elegant simplicity intuitive interface which simplifies
 
 
 ## Features
-### Cluster
-- Configuration of cluster using the Kubernetes cluster setup wizard
-- Installation of Biqmind components using Biqmind CAPE user interface
-    - BiqOperator — The main control plane that acts as an orchestrator connecting different clusters (host & child clusters) from different cloud service providers with Kubernetes Engine. It consist the following components - 
-    - Kubernetes Backup
-    - Kubernetes Restore
-    - Multi-cluster Deployer
-    - BiqVeleroOperator — to manage backup and restoration of cluster components (pv, pvc, deployments, etc.) to aid in disaster recovery.
-- Federation enables you to federate multiple Kubernetes clusters for resources distribution, service    discovery, high availability etc across multiple clusters.
 
-### Backup and Restore 
-- Creation of backup location
-- Creation of one-time cluster backup or scheduling a recurring cluster backup
-- Selection of backing up either of application, data or both
-- Restoration of cluster backup
+1. Disaster Recovery
+- Single & scheduled backup & restore 
+- Multi-cluster & multi-cloud backup & restore 
+ 
+2. Data Migration & Mobility
+- Secure, encrypted application & data at rest and in transit
+- Support for on-prem, private cloud, major public clouds and edge
 
-### Multi-Application Deployment
-- CAPE control plane to federate clusters, manage application and services​
-- Use Kubernetes manifest for multi-cluster application deployment* Multi-cluster Data Management
+3. Multi-cluster Application Deployment
+- End-to-end deployment, from application definition to application release
+- Support for multiple types of application environments
+
+4. Drag & Drop CI/CD Workflow Manager (In development)
+- Build, Test & Deploy across multiple cloud providers or on-premises systems
+- Standardize CI/CD tooling & processes across vendors & deployment environments
 
 <hr /> 
 
@@ -116,5 +116,4 @@ Connect with us over on our mailing list or Slack:
 
 Our Youtube channel:
 - [<img src="https://img.shields.io/badge/Youtube-Biqmind-blue">](https://www.youtube.com/channel/UCSXtrXokSgbZuSz7qgu3VHw)
-
 
