@@ -61,7 +61,7 @@ kubectl cluster-info
 Note: The Kubernetes cluster "dev" has been created locally
 
 ### Install CAPE
-> By running the following command, I have read and agree to CAPE [privacy policy](https://biqmind.com/privacy-policy/), [terms of service](https://biqmind.com/terms-of-service/) and [end user license agreement](https://biqmind.com/end-user-license-agreement/:
+> By running the following command, I have read and agree to CAPE [privacy policy](https://biqmind.com/privacy-policy/), [terms of service](https://biqmind.com/terms-of-service/) and [end user license agreement](https://biqmind.com/end-user-license-agreement/)
 ```
 kubectl apply -f https://cape.sh/install/simple.yaml
 
